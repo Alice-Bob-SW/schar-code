@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scharcode"
+version = "0.1.0"
+description = "Code of Shor's algorithm as implemented for factorization in the paper [Shor's algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days]"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+authors = [{ name = "Axel Pappalardo" }, { name = "Dahmun Goudarzi" }]
+maintainers = [{ name = "Alice & Bob", email = "contact@alice-bob.com" }]
+dependencies = ["qualtran==0.7.0", "attrs", "numpy", "sympy"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/scharcode"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["-ra", "--strict-markers", "--import-mode=importlib", "-p", "no:dash"]
+pythonpath = ["tests"]
+markers = ["slow: long-running tests (skip with -m 'not slow')"]
+
+[tool.coverage.run]
+source = ["scharcode"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "UP", "B", "NPY"]  # "I" (isort) left out on purpose
