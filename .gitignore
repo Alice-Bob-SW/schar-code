@@ -1,0 +1,20 @@
+# pixi
+.pixi/
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+# tools
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+# generated paper outputs
+outputs/
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

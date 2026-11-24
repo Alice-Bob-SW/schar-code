@@ -1,0 +1,21 @@
+{
+  "modulus": 1146337137660851397915791125349,
+  "num_input_qubits": 13,
+  "num_shots": 1,
+  "generator": 66,
+  "window1": 2,
+  "window3a": 2,
+  "window3b": 2,
+  "window4": 2,
+  "min_wraparound_gap": 20,
+  "mask_bits": 10,
+  "len_accumulator": 20,
+  "len_dlog_accumulator": 16,
+  "dropped_bits": 80,
+  "truncated_modulus": 948227,
+  "num_windows1": 7,
+  "num_windows3a": 6,
+  "num_windows3b": 6,
+  "num_windows4": 6,
+  "rns_primes_bit_length": 12
+}

@@ -1,0 +1,7 @@
+.git
+.pixi
+outputs
+**/__pycache__
+.pytest_cache
+.ruff_cache
+.ipynb_checkpoints

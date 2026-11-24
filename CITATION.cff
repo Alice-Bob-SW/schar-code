@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Code for: Shor's algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days"
+abstract: >-
+  Qualtran implementation of the logical approximate modular exponentiation oracle of
+  Appendix B, and the script that regenerates its operation-count tables.
+authors:
+  - given-names: Axel
+    family-names: Pappalardo
+    affiliation: "Alice & Bob"
+  - given-names: Dahmun
+    family-names: Goudarzi
+    affiliation: "Alice & Bob"
+version: 0.1.0
+license: Apache-2.0
+repository-code: "https://github.com/Alice-Bob-SW/schar-code"
+keywords:
+  - quantum computing
+  - Shor's algorithm
+  - RSA
+  - cat qubits
+  - Qualtran
+preferred-citation:
+  type: article
+  title: "Shor's algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days"
+  year: 2026
+  doi: "10.48550/arXiv.2610.37839"
+  url: "https://arxiv.org/abs/2610.37839"
+  identifiers:
+    - type: other
+      value: "arXiv:2610.37839"
+      description: arXiv identifier
+  authors:
+    - given-names: Axel
+      family-names: Pappalardo
+      affiliation: "Alice & Bob"
+    - given-names: Dahmun
+      family-names: Goudarzi
+      affiliation: "Alice & Bob"
+    - given-names: Victor
+      family-names: Hertz
+      affiliation: "Alice & Bob"
+    - given-names: Hugo
+      family-names: Jacinto
+      affiliation: "Alice & Bob; Université Paris-Saclay, CEA, CNRS, Institut de Physique Théorique"
+    - given-names: Larissa
+      family-names: Kroell
+      affiliation: "Alice & Bob"
+    - given-names: André
+      family-names: Schrottenloher
+      affiliation: "Univ Rennes, Inria, CNRS, IRISA"
+    - given-names: Peter
+      family-names: Shanahan
+      affiliation: "Alice & Bob; School of Informatics, University of Edinburgh"
+    - given-names: Élie
+      family-names: Gouzien
+      affiliation: "Alice & Bob"
+    - given-names: Rémi
+      name-particle: de
+      family-names: La Vieuville
+      affiliation: "Alice & Bob"
+    - given-names: Vivien
+      family-names: Londe
+      affiliation: "Alice & Bob"
